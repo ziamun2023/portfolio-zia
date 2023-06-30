@@ -16,3 +16,7 @@
 
 }
 
+.skillDiv{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(163, 153, 153) 20%, rgb(245, 240, 239) 55%, rgb(254, 252, 252) 100%);
+}
