@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@900&display=swap');
+
+.font-intro{
+  font-family: 'Noto Serif', serif;
+ 
+}
+
+.radius{
+  border-bottom-right-radius: 370px;
+
+}
+
