@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import Navbar from '../shared/Navbar';
 import { Outlet } from 'react-router-dom';
 import { AuthContext } from '../provider/AuthProvider';
+import Footer from '../allComponent/footer/Footer';
 
 
 const Layout = () => {
@@ -27,6 +28,7 @@ const {isDarkMode}=useContext(AuthContext)
 
         <Navbar/>
     <Outlet/>
+    <Footer/>
         </div>
 
     
